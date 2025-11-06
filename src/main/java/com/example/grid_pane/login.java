@@ -1,6 +1,7 @@
 package com.example.grid_pane;
 
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
@@ -65,8 +66,8 @@ public class login extends Application {
         Label podekovani = new Label("Dekujeme vam za registraci do sistemu");
 
         VBox vb = new VBox(nadpis, root, hb, hb1, poznamky, podekovani);
-
-        Scene scene = new Scene(vb , 600, 400);
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
