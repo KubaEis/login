@@ -15,6 +15,6 @@ public class HelloController {
 
     @FXML
     protected void onRegistreButtonClick() {
-        Vypis.setText(Jmeno.getText());
+        Vypis.setText("Jmeno:"+Jmeno.getText());
     }
 }

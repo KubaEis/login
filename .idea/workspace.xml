@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc0fd47e-3b15-49e3-a31e-f1080946cc92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/grid_pane/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/grid_pane/hello-view.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="cc0fd47e-3b15-49e3-a31e-f1080946cc92" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,11 +73,24 @@
       <workItem from="1758787496647" duration="2260000" />
       <workItem from="1762420348653" duration="1105000" />
       <workItem from="1762421467955" duration="1031000" />
-      <workItem from="1763021343161" duration="1405000" />
+      <workItem from="1763021343161" duration="1516000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <option name="closed" value="true" />
+      <created>1763022774233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763022774233</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
