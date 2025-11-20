@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.List;
 
 public class HelloController {
-    List<User> uzivatele = new ArrayList<>();
+    private List<User> uzivatele = new ArrayList<>();
     @FXML
     private TextField Jmeno;
     @FXML
@@ -39,19 +39,24 @@ public class HelloController {
     @FXML
     protected void onRegistreButtonClick() {
         if (Ano.isSelected()) {
+            List<String> jazyky = new ArrayList<>();
             int pocetJazyku = 0;
             if  (Anglictina.isSelected()) {
                 pocetJazyku++;
+                jazyky.add("Anglictina");
 
             }
             if  (Cestina.isSelected()) {
                 pocetJazyku++;
+                jazyky.add("Cestina");
             }
             if  (Nemcina.isSelected()) {
                 pocetJazyku++;
+                jazyky.add("Nemcina");
             }
             if  (Spanelstina.isSelected()) {
                 pocetJazyku++;
+                jazyky.add("Spanelstina");
             }
             Vypis.setText(" Jmeno: "+Jmeno.getText() + " Prijmeni: "+Prijmeni.getText() +" Datum narozeni: "+ DatumNarozeni.getValue()+" Login: "+Jmeno.getText() + " Pocet ovladanych jazyku: "+pocetJazyku);
             String jmeno = Jmeno.getText();
@@ -60,13 +65,14 @@ public class HelloController {
             String heslo = Heslo.getText();
             String datumNarozeni = DatumNarozeni.getValue().toString();
             String oblibenaBarva = OblibenaBarva.getValue().toString();
-            User u = new User(jmeno,prijmeni,login,heslo,datumNarozeni,oblibenaBarva);
+            User u = new User(jmeno,prijmeni,login,heslo,datumNarozeni,oblibenaBarva, jazyky);
             uzivatele.add(u);
         }else if(Ne.isSelected()) {
             Vypis.setStyle("-fx-text-fill: #ff0000");
             Vypis.setText("Uzivatele nelze registrovat.");
         }
     }
+
     @FXML
     protected void onVypisButtonClick() {
         String vypis = "";

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc0fd47e-3b15-49e3-a31e-f1080946cc92" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/grid_pane/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/grid_pane/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/grid_pane/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +98,7 @@
       <workItem from="1762421467955" duration="1031000" />
       <workItem from="1763021343161" duration="1617000" />
       <workItem from="1763023027929" duration="4103000" />
+      <workItem from="1763625704353" duration="1678000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />

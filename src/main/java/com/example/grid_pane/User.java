@@ -12,13 +12,14 @@ public class User {
     private String datumNarozeni;
     private String oblibenaBarva;
 
-    User(String jmeno, String prijmeni,String login, String heslo,String datumNarozeni,String oblibenaBarva) {
+    User(String jmeno, String prijmeni,String login, String heslo,String datumNarozeni,String oblibenaBarva, List<String> jazyky) {
         this.jmeno = jmeno;
         this.prijmeni = prijmeni;
         this.login = login;
         this.heslo = heslo;
         this.datumNarozeni = datumNarozeni;
         this.oblibenaBarva = oblibenaBarva;
+        this.jazyky = jazyky;
     }
 
     public String getOblibenaBarva() {
@@ -69,8 +70,16 @@ public class User {
         this.jmeno = jmeno;
     }
 
+    public List<String> getJazyky() {
+        return jazyky;
+    }
+
     @Override
     public String toString() {
+        String seznam = "";
+        for(int i=0;i<jazyky.size();i++){
+            seznam+=jazyky.get(i)+", ";
+        }
         return "User{" +
                 "jmeno='" + jmeno + '\'' +
                 ", prijmeni='" + prijmeni + '\'' +
@@ -78,6 +87,7 @@ public class User {
                 ", heslo='" + heslo + '\'' +
                 ", datumNarozeni='" + datumNarozeni + '\'' +
                 ", oblibenaBarva='" + oblibenaBarva + '\'' +
+                ", seznamJazyku='" + seznam + '\'' +
                 '}';
     }
 }
