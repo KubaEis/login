@@ -1,0 +1,22 @@
+.button{
+    -fx-background-color: #b9ffff;
+    -fx-border-color: #24cbff;
+
+}
+.text-field{
+    -fx-background-color: #b9ffff;
+    -fx-border-color: #24cbff;
+}
+#Vypis{
+    -fx-border-color: #24cbff;
+}
+.check-box{
+    -fx-background-color: #b9ffff;
+}
+.label{
+    -fx-text-fill: black;
+ }
+.root{
+    -fx-background-image: url(obrazky/a24a04.jpg);
+}
+
